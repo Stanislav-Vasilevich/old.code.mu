@@ -74,6 +74,30 @@ const arr = [ [1, 2, 3], [4, 5, 6], [7,8,9] ];
 console.log(arr[1][0]);
 */
 
-/**/
-/**/
-/**/
+/* 2
+const obj = {js:['jQuery', 'Angular'], php: 'hello', css: 'world'};
+
+console.log(obj.js[0]);
+*/
+
+/* 3
+const langs = {
+  ru: ['понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье'],
+  en: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'],
+}
+
+console.log(langs.ru[0]);
+console.log(langs.en[2]);
+*/
+
+/* 5
+const langs = {
+  ru: ['понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота', 'воскресенье'],
+  en: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'],
+}
+
+const lang = 'ru';
+const day = 4;
+
+console.log(langs[lang][day]);
+*/
